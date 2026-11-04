@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Data and model weights (not stored in the repository)
+dontpatronizeme/
+NLPLabs-2024/
+checkpoints/
+ablation_checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Generated files
+false_negatives.csv
+false_positives.csv
+ablation_table.csv
+error_*.csv
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
